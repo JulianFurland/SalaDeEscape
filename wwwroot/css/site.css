@@ -3,23 +3,49 @@ html {
   position: relative;
   min-height: 100%;
 }
-
 @media (min-width: 768px) {
   html {
     font-size: 16px;
   }
 }
-
-body {
-  margin: 20px 60px 0px 20px;
+.home{
+  overflow: hidden;
+  position: relative;
+  background-image: url("/imgs/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 footer {
   position: fixed; 
   bottom: 0; 
-  margin: 10px 0px 20px 0px;
 }
-
 footer,header{
-  font-family: monospace;
+  font-family: 'xbones';
+  color: white;
+}
+nav{
+  position: absolute;
+  margin-left: 43rem;
+  margin-top: 45rem;
+}
+nav li{
+  display: inline;
+}
+nav ul{
+  list-style: none; 
+}
+nav a{
+  font-family: 'xbones';
+  margin: 1rem;
+  color: white;
+  text-align: center;
+  float: left;
+  text-decoration: none;
+  padding: 1rem;
+  background-color: black;
+  border-radius: 1rem;
+}
+.inline{
+  display: inline;
 }

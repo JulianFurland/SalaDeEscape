@@ -12,6 +12,10 @@ public class HomeController : Controller
     {
         return View();
     }
+       public IActionResult Creditos()
+    {
+        return View();
+    }
      public IActionResult Comenzar()
     {
         return View("Habitacion"+Escape.GetEstadoJuego());
