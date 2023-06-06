@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<body class="habitacion3">
+    <div class="container">
+        <h4>
+            Escupe fuego por la boca y destroza el barco de proa a popa
+        </h4>
+        <h4> ¿Qué es?</h4>
+    </div>
+    <form action='@Url.Action("Habitacion")'>
+        <input type="text" name="clave" required>
+        <input type="hidden" name="sala" value="3">
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+    @if (ViewBag.Error)
+    {
+        <h2>La repsuesta no es correcta, ingresa de nuevo</h2>
+    }
+</body>
+</html>

@@ -16,8 +16,9 @@ html {
   font-family: "JackPirate";
   src: url('../fonts/JackPirate.ttf') format('truetype');
 }
-h1,h2,h3,h4,h5,p{
-  font-family: 'JackPirate';
+@font-face {
+  font-family: "PiratesBay";
+  src: url('../fonts/PiratesBay.ttf') format('truetype');
 }
 .home{
   overflow: hidden;
@@ -96,4 +97,48 @@ nav a{
   padding: 1rem;
   background-color: gray;
   border-radius: 2rem;
+}
+.volveralindex{
+  padding: 1rem;
+  display: inline-block;
+  border-radius: 1rem;
+  color: white;
+  background-color: black;
+  font-family: 'JackPirate';
+  text-decoration: none;
+}
+.habitacion1{
+  font-family: 'xbones';
+  color: rgb(209, 209, 209);
+  background-image: url('/imgs/bg1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.habitacion2{
+  color: rgb(209, 209, 209);
+  background-image: url('/imgs/bg2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+h2,h3,h4{
+  font-family: 'PiratesBay';
+
+}
+.habitacion3{
+  color: rgb(209, 209, 209);
+  background-image: url('/imgs/bg3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.container{
+  border-radius: 2rem;
+  padding: 1rem;
+  display:inline-block;
+  background-color: black;
 }

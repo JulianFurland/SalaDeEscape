@@ -18,11 +18,17 @@ public class HomeController : Controller
     }
      public IActionResult Comenzar()
     {
+        ViewBag.Error = false;
         return View("Habitacion"+Escape.GetEstadoJuego());
     }
      public IActionResult Habitacion(int sala, string clave)
     {
-        if(!Escape.ResolverSala(sala, clave)) ViewBag.Error = "La clave ingresada no es correcta";
+        if(!Escape.ResolverSala(sala, clave)){
+            ViewBag.Error = true;
+        } else{
+            ViewBag.Error = false;
+        }
+        
         return View("Habitacion"+Escape.GetEstadoJuego());
     }
 

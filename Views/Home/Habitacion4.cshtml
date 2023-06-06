@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<body class="habitacion1">
+    <img src="/imgs/acertijo1.png" alt="acertijo">
+    <form action='@Url.Action("Habitacion")'>
+        <input type="text" name="clave" required>
+        <input type="hidden" name="sala" value="1">
+        <input type="submit" value="Enviar">
+    </form>
+    @if (ViewBag.Error)
+    {
+        <h2>La repsuesta no es correcta, ingresa de nuevo</h2>
+    }
+</body>
+</html>

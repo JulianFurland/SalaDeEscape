@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<body class="habitacion2">
+    <img src="/imgs/acertijo2.png" alt="acertijo">
+    <form action='@Url.Action("Habitacion")'>
+        <input type="text" name="clave" required>
+        <input type="hidden" name="sala" value="2">
+        <input type="submit" value="Enviar">
+    </form>
+     @if (ViewBag.Error)
+    {  
+        <h2>La repsuesta no es correcta, ingresa de nuevo</h2>
+    }
+    <br>
+    <div class="container">
+        <h3>Horizontal:</h3>
+    <ul>
+        <li><h3>3: Persona más importante en la embarcación</h3></li>
+        <li><h3>5: Premio que buscan todos los piratas</h3></li>
+        <li><h3>7: Fruta que no se puede llevar en un barco</h3></li>
+        <li><h3>8: Protesis utilizada por piratas</h3></li>
+    </ul>
+    <h3>Vertical:</h3>
+    <ul>
+        <li><h3>1: Objeto utilizado para el manejo de la nave</h3></li>
+        <li><h3>2: Símbolo comunmente utilizado en las banderas piratas</h3></li>
+        <li><h3>3: Mejor amigo del Pirata</h3></li>
+        <li><h3>6: PALABRA A DESCUBRIR: Parte mas alta del navío</h3></li>
+    </ul>
+    </div>
+   
+</body>
+</html>
