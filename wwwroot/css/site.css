@@ -91,7 +91,6 @@ nav a{
   background-color: black;
 }
 .center{
-  margin-left: 40rem;
   text-align: center;
   display: inline-block;
   padding: 1rem;
@@ -106,6 +105,7 @@ nav a{
   background-color: black;
   font-family: 'JackPirate';
   text-decoration: none;
+  text-align: center;
 }
 .habitacion1{
   font-family: 'xbones';
@@ -152,4 +152,25 @@ h2,h3,h4{
 }
 .tutorial h1,h4{
   font-family: 'JackPirate';
+}
+h1{
+  font-family: 'JackPirate';
+}
+.fin{
+  color: rgb(209, 209, 209);
+  background-image: url('/imgs/bgfin.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.containerfin{
+  border-radius: 2rem;
+  padding: 1rem;
+  display:block;
+  background-color: black;
+  text-align: center;
+}
+.imgcenter{
+  display: inline;
+  margin-left: 44rem;
 }
