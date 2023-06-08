@@ -5,6 +5,8 @@
     <form action='@Url.Action("Habitacion")'>
         <input type="text" name="clave" required>
         <input type="hidden" name="sala" value="2">
+        <button onclick="alert('Pista 1: La 7 es una fruta amarilla')"> Pista 1 </button>
+        <button onclick="alert('Pista 2: La palabra a descubrir es una mala palabra')"> Pista 2 </button>
         <input type="submit" value="Enviar">
     </form>
      @if (ViewBag.Error)
@@ -24,7 +26,7 @@
     <ul>
         <li><h3>1: Objeto utilizado para el manejo de la nave</h3></li>
         <li><h3>2: Símbolo comunmente utilizado en las banderas piratas</h3></li>
-        <li><h3>3: Mejor amigo del Pirata</h3></li>
+        <li><h3>4: Mejor amigo del Pirata</h3></li>
         <li><h3>6: PALABRA A DESCUBRIR: Parte mas alta del navío</h3></li>
     </ul>
     </div>

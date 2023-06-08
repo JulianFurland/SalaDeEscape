@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en"></html>
-<body class="habitacion1">
-    <img src="/imgs/acertijo1.png" alt="acertijo">
+<body class="habitacion4">
+    <div class="container">
+        <h2>Hay algo que le pertenece a cada pirata, pero solo lo usan los demás piratas.</h2>
+        <h4>¿Qué es?</h4>
+    </div>
+    <br>
     <form action='@Url.Action("Habitacion")'>
         <input type="text" name="clave" required>
-        <input type="hidden" name="sala" value="1">
+        <input type="hidden" name="sala" value="4">
+        <button onclick="alert('Pista 1: Vos tambien tenes uno de estos')"> Pista 1 </button>
+        <button onclick="alert('Pista 2: Te ayuda a comunicarte')"> Pista 2 </button>
         <input type="submit" value="Enviar">
     </form>
     @if (ViewBag.Error)

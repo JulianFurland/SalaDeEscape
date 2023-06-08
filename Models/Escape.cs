@@ -1,5 +1,5 @@
 static class Escape{
-    static string[] incognitaSalas = {"30", "carajo", "cañon"};
+    static string[] incognitaSalas = {"30", "carajo", "cañon","el nombre"};
     static int estadoJuego = 1;
     public static int GetEstadoJuego(){
         return estadoJuego;

@@ -5,6 +5,8 @@
     <form action='@Url.Action("Habitacion")'>
         <input type="text" name="clave" required>
         <input type="hidden" name="sala" value="1">
+        <button onclick="alert('Pista 1: Fijate la diferencia de peso entre las figuras')"> Pista 1 </button>
+        <button onclick="alert('Pista 2: La espada pesa 10kg mas que el timon')"> Pista 2 </button>
         <input type="submit" value="Enviar">
     </form>
     @if (ViewBag.Error)
@@ -13,9 +15,10 @@
     }
     <br>
     <div class="container">
-        <h3>La brujula y la espada pesan 100. La espada y el timón pesan 130, y la brujula y el timón 90.</h3>
-        <h3>Cuanto pesa la brujula?</h3>
+        <h2>La brujula y la espada pesan 100. La espada y el timón pesan 130, y la brujula y el timón 90.</h2>
+        <h2>Cuanto pesa la brujula?</h2>
     </div>
+
     
 </body>
 </html>

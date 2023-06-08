@@ -142,3 +142,14 @@ h2,h3,h4{
   display:inline-block;
   background-color: black;
 }
+.habitacion4{
+  color: rgb(209, 209, 209);
+  background-image: url('/imgs/bg4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.tutorial h1,h4{
+  font-family: 'JackPirate';
+}
